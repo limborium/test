@@ -1,0 +1,131 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+/*.container-fluid {
+	padding-left: 0rem;
+	padding-right: 0rem;
+	overflow: hidden;
+}*/
+/** HEADER **/
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	border-bottom: 1px solid black;
+	height: 100px;
+}
+.navbar {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.navbar-brand {
+/*	padding-top: 25px;
+	padding-left: 25px;
+	padding-bottom: 0px;*/
+	font-size: 32px;
+}
+.navbar-brand h1 { /* Restaurant Name */
+	font-family: 'Oxygen', sans-serif;
+	color: black;
+	font-size: 1.5em;
+	margin-top: .25;
+	margin-bottom: .25;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list a {
+	color: black;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: lightgrey;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+/*	clear: both;*/
+	margin-top: 35px;
+}
+.navbar-collapse {
+	border: 0;
+}
+ul.nav {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+hr {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 0;
+	border-top: 1px solid black;
+	width: 99%;
+}
+.navbar-default .navbar-nav > li > a {
+	color: black;
+	padding: 5px;
+}
+div#collapsable-nav.navbar-collapse.in {
+	border: 1px solid black;
+	border-top-color: grey;
+}
+/* END HEADER */
+@media (min-width: 768px) {
+	div#collapsable-nav.navbar-collapse.in {
+		border: 1px solid #c1c1c1;
+	}
+}
+
+h1 {
+	margin-bottom: 40px;
+	color: black;
+}
+
+section {
+	min-height: 1000px;
+	background-color: grey;
+}
+
+h2 {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	color: black;
+}
+
+p {
+	padding: 0 1em 1em;
+	font-size: 16px;
+	color: black;
+}
+
+
+/* Extra Small Devices Only */
+@media (max-width: 767px) {
+	.col-xs-12 {
+		padding-left: 80px;
+		padding-right: 80px;
+		position: relative;
+	}
+	div.row {
+		padding-top: 60px;
+	}
+	/* Header */
+/*	.navbar-brand {
+		padding-top: 20px;
+	}
+	.navbar-brand h1 { 
+		font-size: 6vw;
+		vertical-align: center;
+	}
+
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}*/
+}
